@@ -14,8 +14,8 @@ About
 technology company based in London. Committed to helping people with
 disabilities. Extensive experience writing software for and delivering
 training to clients for nearly eight years. I also have a background in
-marketing and fine art. In my spare time I paint, write a newsletter on
-art and answer accessibility questions on Stack Overflow.
+marketing and fine art. In my spare time I paint, write an art
+newsletter and answer accessibility questions on Stack Overflow.
 
 Work Experience
 ---------------
@@ -47,6 +47,11 @@ Work Experience
   *Marketing Director*, January 2013 - March 2015
 
   - In charge of all marketing activities and business development.
+  - Relocated from Cape Town to Johannesburg to open the company's
+    second branch as sole manager and employee, expanding Elexsys
+    into new business territory and forging relationships with new
+    clients. This directly contributed to increasing annual turnover
+    by R1.5 million.
   - Developed and maintained four product websites, designed and
     published all marketing material including technical data sheets
     and product adverts.
@@ -62,11 +67,6 @@ Work Experience
     demonstrations of our products.
   - Wrote and submitted proposals and quotations in line with clients'
     technical and budgetary requirements.
-  - Relocated from Cape Town to Johannesburg to open the company's
-    second branch as sole manager and employee, expanding Elexsys
-    into new business territory and forging relationships with new
-    clients. This directly contributed to increasing annual turnover
-    by R1.5 million.
 
 Education
 ---------
@@ -98,17 +98,17 @@ Skills
   and engineers. At Blazie, I provided remote and in-person training
   and follow-up support to end users for our software scripts.
 
-* Eager to learn new skills on the job. Enjoy learning about new
-  WCAG techniques, JavaScript frameworks, system administration and
-  Unix environments in my spare time. I run my own OpenBSD web and
-  email server where I host my artist portfolio website.
-
 * Highly creative and able to find unique solutions to tough problems.
   As an accessibility engineer at Blazie, I was required to find new
   ways of making web and legacy applications accessible without
   relying on clear documentation. Developed JavaScript and COM object
   libraries to overcome accessibility issues between screen readers and
   web/desktop applications.
+
+* Eager to learn new skills on the job. Enjoy learning about new
+  WCAG techniques, JavaScript frameworks, system administration and
+  Unix environments in my spare time. I run my own OpenBSD web and
+  email server where I host my artist portfolio website.
 
 Interests
 ---------

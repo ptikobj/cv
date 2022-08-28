@@ -1,1 +1,95 @@
 // _sass/custom.scss
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*
+ * Light colour scheme
+ * https://www.happyhues.co/palettes/1
+ */
+.light-bg {
+  background-color: #fffffe;
+}
+
+.light-headline {
+  color: #181818;
+}
+
+.light-paragraph {
+  color: #2e2e2e;
+}
+
+.light-button {
+  color: #181818;
+  background-color: #4fc4cf;
+}
+
+.light-stroke {
+  color: #181818;
+}
+
+.light-main {
+  color: #f2eef5;
+}
+
+.light-highlight {
+  color: #4fc4cf;
+}
+
+.light-secondary {
+  color: #994ff3;
+}
+
+.light-tertiary {
+  color: #fbdd74;
+}
+
+.dark-background {
+  background-color: #181818;
+}
+
+.dark-headline {
+  color: #fffffe;
+}
+
+.dark-paragraph {
+  color: #ddd6d6;
+}
+
+.dark-link {
+  color: #50c4cf;
+}
+
+.dark-card-backgroud {
+  background-color: #2e2e2e;
+}
+
+.dark-card-headline {
+  color: #fffffe;
+}
+
+.dark-card-paragraph {
+  color: #ddd6d6;
+}
+
+.dark-background-2 {
+  background-color: #fbdd74;
+}
+
+.dark-form-input {
+  color: #2e2e2e;
+}
+
+.dark-label {
+  color: #fffffe;
+}
+
+.dark-form-button {
+  color: #181818;
+  background-color: #50c4cf;
+}

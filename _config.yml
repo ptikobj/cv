@@ -1,22 +1,38 @@
 # Site settings
 title: George Chapman
-email: your-email@example.com
+author: George Chapman
+email: george@gnchapman.info
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  34-year-old accessibility engineer currently working for an assistive
+  technology company based in London. Committed to helping people with
+  disabilities. Extensive experience writing software for and delivering
+  training to clients for nearly eight years. I also have a background in
+  marketing and fine art. In my spare time I paint, write an art
+  newsletter and answer accessibility questions on Stack Overflow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:       jekyllrb
-github_username:        jekyll
-stackoverflow_username: 
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_skills:          true
+resume_section_interests:       true
+
+# Social media
+instagram_username:     gn.chapman
+# twitter_username:       gnchapman
+github_username:        gnchapman
+stackoverflow:          "17077605"
 
 # Exclude from processing
 exclude:

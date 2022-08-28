@@ -1,34 +1,100 @@
 ---
 layout: default
 ---
+<div class="flex items-center">
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <div class="flex flex-column center pa4 pa0-ns">
 
-  {{ content }}
+    {%- if site.description -%}
+    <section>
+      <p class="f4 lh-copy measure center">{{  site.description  }}</p>
+    </section>
+    {%- endif -%}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    {{ content }}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    {% if site.resume_section_experience %}
+    <!-- begin Experience -->
+    <section class="f4 lh-copy center measure">
+
+        <h2>Experience</h2>
+
+        {% for job in site.data.experience %}
+        <div>
+          <h3 class="f4">{{ job.position }} &bull; {{ job.duration }}</h3>
+          <h4 class="f4">{{ job.company }}</h4>
+          <ul class="f4">
+            {% for task in job.tasks %}
+            <li class="pb3">{{ task.task }}</li>
+            {% endfor %}
+          </ul>
+          <p class="f6 lh-copy measure center">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+    </section>
+    <!-- end Experience -->
+    {% endif %}
+
+    {% if site.resume_section_education %}
+    <!-- begin Education -->
+    <section class="f4 lh-copy center measure">
+
+      <h2>Education</h2>
+
+      {% for education in site.data.education %}
+      <div>
+        <h3>{{ education.degree }} &bull; {{ education.year }}</h3>
+        <h4>{{ education.uni }}</h4>
+        <h5>{{ education.award }}</h5>
+        <p>
+          <ul>
+            {% for award in education.awards %}
+            <li class="pb3">{{ award.award }}</li>
+            {% endfor %}
+          </ul>
+        </p>
+        <p>{{ education.summary }}</p>
+      </div>
+      {% endfor %}
+    </section>
+    <!-- end Education -->
+    {% endif %}
+
+    {% if site.resume_section_skills %}
+    <!-- begin Skills -->
+    <section class="f4 lh-copy center measure">
+
+      <h2>Skills</h2>
+
+      {% for skill in site.data.skills %}
+      <div>
+        <h3>{{ skill.skill }}</h3>
+        <p>{{ skill.description }}</p>
+      </div>
+      {% endfor %}
+
+    </section>
+    <!-- end Skills -->
+    {% endif %}
+
+    {% if site.resume_section_interests %}
+    <!-- begin Interests -->
+    <section class="f4 lh-copy center measure">
+
+      <h2>Interests</h2>
+
+      <div>
+        {% for interest in site.data.interests %}
+        <h4 class="f4">{{ interest.interest }}</h4>
+        <p class="f4 lh-copy measure center">{{ interest.description }}</p>
+        {% endfor %}
+      </div>
+
+    </section>
+    <!-- end Interests -->
+    {% endif %}
+
+    </div>
 
 </div>
