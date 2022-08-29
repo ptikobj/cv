@@ -9,7 +9,7 @@ description: >-
   training to clients for nearly eight years. I also have a background in
   marketing and fine art. In my spare time I paint, write an art
   newsletter and answer accessibility questions on Stack Overflow.
-baseurl: "/cv" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ptikobj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
