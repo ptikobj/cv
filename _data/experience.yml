@@ -11,11 +11,14 @@
         ZoomText to improve accessibility and usability for client
         applications.
     - task: >-
-        Demonstrate solid knowledge of WCAG accessibility guidelines
+        Demonstrate solid knowledge of WCAG 2.1 accessibility guidelines
         and techniques.
     - task: >-
         Carry out WCAG assessments for web and mobile apps, identify
         accessibility failures and provide code-level solutions.
+    - task: >-
+         Identify accessibility failures; write and demonstrate
+         appropriate fixes in HTML, CSS and JavaScript for developers.
     - task: >-
         Travel across the UK to assess and deliver software solutions to
         end users, including training on how to use newly-accessible
